@@ -22,6 +22,25 @@ class StartSplash: SKScene {
         }
     }
     
+    //This and DispatchLevel aide in adding delay, copy and paste to help later
+    public func delay(bySeconds seconds: Double, dispatchLevel: DispatchLevel = .main, closure: @escaping () -> Void) {
+        let dispatchTime = DispatchTime.now() + seconds
+        dispatchLevel.dispatchQueue.asyncAfter(deadline: dispatchTime, execute: closure)
+    }
+    
+    public enum DispatchLevel {
+        case main, userInteractive, userInitiated, utility, background
+        var dispatchQueue: DispatchQueue {
+            switch self {
+            case .main:                 return DispatchQueue.main
+            case .userInteractive:      return DispatchQueue.global(qos: .userInteractive)
+            case .userInitiated:        return DispatchQueue.global(qos: .userInitiated)
+            case .utility:              return DispatchQueue.global(qos: .utility)
+            case .background:           return DispatchQueue.global(qos: .background)
+            }
+        }
+    }
+    
     func createSceneContents() {
         let textNode1 = SKLabelNode(fontNamed: "Future")
         let label: String = "A Game By Michael Pardi"
@@ -36,6 +55,12 @@ class StartSplash: SKScene {
         logoSpot.position = CGPoint(x: frame.size.width / 2 + 16, y: frame.size.height / 2)
         addChild(logoSpot)
         scaleMode = .aspectFit
+        
+        delay(bySeconds: 10) {
+            let newScene = MainMenuScene(size: self.size)
+            let fade = SKTransition.fade(withDuration: 2.0)
+            self.view?.presentScene(newScene, transition: fade)
+        }
     }
     
     override func mouseDown(with event: NSEvent) {
@@ -59,8 +84,8 @@ class StartSplash: SKScene {
             //                })
             let newScene = MainMenuScene(size: self.size)
             //let doors = SKTransition.doorsOpenVertical(withDuration: 0.5)
-            let doors = SKTransition.fade(withDuration: 2.0)
-            self.view?.presentScene(newScene, transition: doors)
+            let fade = SKTransition.fade(withDuration: 2.0)
+            self.view?.presentScene(newScene, transition: fade)
         }
     }
 }

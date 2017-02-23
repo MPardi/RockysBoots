@@ -17,6 +17,8 @@
 		4C2B34821E5E91C70041BBC9 /* Logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B34811E5E91C70041BBC9 /* Logo1.png */; };
 		4C2B34841E5E91DF0041BBC9 /* StartSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B34831E5E91DF0041BBC9 /* StartSplash.swift */; };
 		4C2B34861E5E91FB0041BBC9 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B34851E5E91FB0041BBC9 /* MainMenuScene.swift */; };
+		4CF730701E5F8C7F005093B2 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF7306F1E5F8C7F005093B2 /* Logo.png */; };
+		4CF730721E5F8CA0005093B2 /* Logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4CF730711E5F8CA0005093B2 /* Logo.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		4C2B34811E5E91C70041BBC9 /* Logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo1.png; sourceTree = "<group>"; };
 		4C2B34831E5E91DF0041BBC9 /* StartSplash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartSplash.swift; sourceTree = "<group>"; };
 		4C2B34851E5E91FB0041BBC9 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		4CF7306F1E5F8C7F005093B2 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		4CF730711E5F8CA0005093B2 /* Logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Logo.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +77,9 @@
 				4C2B34851E5E91FB0041BBC9 /* MainMenuScene.swift */,
 				4C2B34761E5E917E0041BBC9 /* Assets.xcassets */,
 				4C2B34781E5E917E0041BBC9 /* Main.storyboard */,
+				4CF730711E5F8CA0005093B2 /* Logo.svg */,
 				4C2B347B1E5E917E0041BBC9 /* Info.plist */,
+				4CF7306F1E5F8C7F005093B2 /* Logo.png */,
 				4C2B34811E5E91C70041BBC9 /* Logo1.png */,
 			);
 			path = RockysBoots;
@@ -139,7 +145,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF730701E5F8C7F005093B2 /* Logo.png in Resources */,
 				4C2B34821E5E91C70041BBC9 /* Logo1.png in Resources */,
+				4CF730721E5F8CA0005093B2 /* Logo.svg in Resources */,
 				4C2B346F1E5E917E0041BBC9 /* GameScene.sks in Resources */,
 				4C2B34771E5E917E0041BBC9 /* Assets.xcassets in Resources */,
 				4C2B34711E5E917E0041BBC9 /* Actions.sks in Resources */,
@@ -313,6 +321,7 @@
 				4C2B34801E5E917E0041BBC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -42,7 +42,7 @@ class StartSplash: SKScene {
     }
     
     func createSceneContents() {
-        let textNode1 = SKLabelNode(fontNamed: "Future")
+        let textNode1 = SKLabelNode(fontNamed: "Futura")
         let label: String = "A Game By Michael Pardi"
         textNode1.text = label
         textNode1.fontSize = 24

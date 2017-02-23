@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2B346D1E5E917E0041BBC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B346C1E5E917E0041BBC9 /* AppDelegate.swift */; };
+		4C2B346F1E5E917E0041BBC9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B346E1E5E917E0041BBC9 /* GameScene.sks */; };
+		4C2B34711E5E917E0041BBC9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B34701E5E917E0041BBC9 /* Actions.sks */; };
+		4C2B34731E5E917E0041BBC9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B34721E5E917E0041BBC9 /* GameScene.swift */; };
+		4C2B34751E5E917E0041BBC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B34741E5E917E0041BBC9 /* ViewController.swift */; };
+		4C2B34771E5E917E0041BBC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B34761E5E917E0041BBC9 /* Assets.xcassets */; };
+		4C2B347A1E5E917E0041BBC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B34781E5E917E0041BBC9 /* Main.storyboard */; };
+		4C2B34821E5E91C70041BBC9 /* Logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B34811E5E91C70041BBC9 /* Logo1.png */; };
+		4C2B34841E5E91DF0041BBC9 /* StartSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B34831E5E91DF0041BBC9 /* StartSplash.swift */; };
+		4C2B34861E5E91FB0041BBC9 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B34851E5E91FB0041BBC9 /* MainMenuScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C2B34691E5E917E0041BBC9 /* RockysBoots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockysBoots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2B346C1E5E917E0041BBC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C2B346E1E5E917E0041BBC9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4C2B34701E5E917E0041BBC9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		4C2B34721E5E917E0041BBC9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4C2B34741E5E917E0041BBC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C2B34761E5E917E0041BBC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C2B34791E5E917E0041BBC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C2B347B1E5E917E0041BBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2B34811E5E91C70041BBC9 /* Logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo1.png; sourceTree = "<group>"; };
+		4C2B34831E5E91DF0041BBC9 /* StartSplash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartSplash.swift; sourceTree = "<group>"; };
+		4C2B34851E5E91FB0041BBC9 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2B34661E5E917E0041BBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2B34601E5E917E0041BBC9 = {
+			isa = PBXGroup;
+			children = (
+				4C2B346B1E5E917E0041BBC9 /* RockysBoots */,
+				4C2B346A1E5E917E0041BBC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2B346A1E5E917E0041BBC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B34691E5E917E0041BBC9 /* RockysBoots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2B346B1E5E917E0041BBC9 /* RockysBoots */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B346C1E5E917E0041BBC9 /* AppDelegate.swift */,
+				4C2B346E1E5E917E0041BBC9 /* GameScene.sks */,
+				4C2B34701E5E917E0041BBC9 /* Actions.sks */,
+				4C2B34721E5E917E0041BBC9 /* GameScene.swift */,
+				4C2B34741E5E917E0041BBC9 /* ViewController.swift */,
+				4C2B34831E5E91DF0041BBC9 /* StartSplash.swift */,
+				4C2B34851E5E91FB0041BBC9 /* MainMenuScene.swift */,
+				4C2B34761E5E917E0041BBC9 /* Assets.xcassets */,
+				4C2B34781E5E917E0041BBC9 /* Main.storyboard */,
+				4C2B347B1E5E917E0041BBC9 /* Info.plist */,
+				4C2B34811E5E91C70041BBC9 /* Logo1.png */,
+			);
+			path = RockysBoots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C2B34681E5E917E0041BBC9 /* RockysBoots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2B347E1E5E917E0041BBC9 /* Build configuration list for PBXNativeTarget "RockysBoots" */;
+			buildPhases = (
+				4C2B34651E5E917E0041BBC9 /* Sources */,
+				4C2B34661E5E917E0041BBC9 /* Frameworks */,
+				4C2B34671E5E917E0041BBC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockysBoots;
+			productName = RockysBoots;
+			productReference = 4C2B34691E5E917E0041BBC9 /* RockysBoots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2B34611E5E917E0041BBC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MichaelPardi;
+				TargetAttributes = {
+					4C2B34681E5E917E0041BBC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P799ZD6YCU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4C2B34641E5E917E0041BBC9 /* Build configuration list for PBXProject "RockysBoots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C2B34601E5E917E0041BBC9;
+			productRefGroup = 4C2B346A1E5E917E0041BBC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C2B34681E5E917E0041BBC9 /* RockysBoots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2B34671E5E917E0041BBC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2B34821E5E91C70041BBC9 /* Logo1.png in Resources */,
+				4C2B346F1E5E917E0041BBC9 /* GameScene.sks in Resources */,
+				4C2B34771E5E917E0041BBC9 /* Assets.xcassets in Resources */,
+				4C2B34711E5E917E0041BBC9 /* Actions.sks in Resources */,
+				4C2B347A1E5E917E0041BBC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2B34651E5E917E0041BBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2B34861E5E91FB0041BBC9 /* MainMenuScene.swift in Sources */,
+				4C2B34751E5E917E0041BBC9 /* ViewController.swift in Sources */,
+				4C2B34841E5E91DF0041BBC9 /* StartSplash.swift in Sources */,
+				4C2B34731E5E917E0041BBC9 /* GameScene.swift in Sources */,
+				4C2B346D1E5E917E0041BBC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C2B34781E5E917E0041BBC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2B34791E5E917E0041BBC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C2B347C1E5E917E0041BBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C2B347D1E5E917E0041BBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		4C2B347F1E5E917E0041BBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P799ZD6YCU;
+				INFOPLIST_FILE = RockysBoots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Games.RockysBoots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C2B34801E5E917E0041BBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P799ZD6YCU;
+				INFOPLIST_FILE = RockysBoots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Games.RockysBoots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2B34641E5E917E0041BBC9 /* Build configuration list for PBXProject "RockysBoots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2B347C1E5E917E0041BBC9 /* Debug */,
+				4C2B347D1E5E917E0041BBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2B347E1E5E917E0041BBC9 /* Build configuration list for PBXNativeTarget "RockysBoots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2B347F1E5E917E0041BBC9 /* Debug */,
+				4C2B34801E5E917E0041BBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2B34611E5E917E0041BBC9 /* Project object */;
+}
